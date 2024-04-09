@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4vw;
+}
+.itemleft {
+    width: 20vw;
+}
+.itemright {
+    width: 20vw;
+}
+.maintext18 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 28vw;
+    height: 45vh;
+    /* background-color: rgb(171, 207, 207); */
+}
+.title18 {
+    font-weight: 600;
+    font-size: 4vw;
+    margin-bottom: 1.5vw;
+}
+.subtext18 {
+    font-size: 1.3vw;
+    width: 25vw;
+    margin-bottom: 1.5vw;
+}
+.button18 {
+    width: 7vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    border: none;
+    color: white;
+    border-radius: 50px;
+}
+.grid18 {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(2,300px);
+    margin-top: 5vw;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1vw;
+    
+}
+main {
+    width: 100vw;
+}
+.right18 {
+    align-self: flex-end;
+    width: 12vw;
+}
+.left18 {
+    width: 12vw;
+    justify-self: end;
+    align-self:flex-start
+}
+.textleft18 {
+    align-self: center;
+    justify-self:right;
+    width: 12vw;
+}
+.textright18 {
+    margin-left: 3vw;
+}
+@media (max-width: 780px) {
+    nav {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 4vw;
+    }
+    .itemleft {
+        width: 70vw;
+    }
+    .itemright {
+        width: 70vw;
+    }
+    .maintext18 {
+        margin-top: 3vw;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 65vw;
+        height: 30vh;
+        /*   background-color: rgb(171, 207, 207); */
+        margin-bottom: 5vw;
+    }
+    .title18 {
+        font-weight: 600;
+        font-size: 9.5vw;
+        margin-bottom: 1.5vw;
+    }
+    .subtext18 {
+        font-size: 3.2vw;
+        width: 40vw;
+        margin-bottom: 4vw;
+    }
+    .button18 {
+        width: 17vw;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(37, 37, 37);
+        border: none;
+        color: white;
+        border-radius: 50px;
+    }
+    .grid18 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(5,200px);
+        margin-top: 20vw;
+        justify-content: center;
+        align-items: center;
+        gap: 4vw;
+        /* margin-right: 25vw; */
+        
+    }
+    main {
+        width: 100vw;
+    }
+    .right18 {
+        justify-self: flex-end;
+        align-self:end;
+        width: 32vw;
+    }
+    .left18 {
+        width: 40vw;
+        justify-self: start;
+        align-self:flex-start
+    }
+    .textleft18 {
+        align-self: center;
+        justify-self:right;
+        width: 30vw;
+    }
+    .textright18 {
+        /* margin-left: 3vw; */
+        width: 20vw;
+        justify-self: center;
+    }
+    .yellow {
+        width: 40vw;
+    }
+    .middle {
+        width: 35vw;
+        justify-self: end;
+        align-self: center;
+    }
+    .blue {
+        width: 40vw;
+    }
+    .blue2 {
+        width: 40vw;
+        justify-self: flex-end;
+    }
+    .text {
+        width: 40vw;
+        justify-self: end;
+    }
+}

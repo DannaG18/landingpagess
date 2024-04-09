@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    background-color: rgb(163, 35, 5);
+    padding: 0.5vw;
+    padding-bottom: 0vw;
+    font-family: 'Poppins',sans-serif;
+}
+.principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img8 {
+    width: 40vw;
+}
+.generaltext {
+    box-sizing: border-box;
+    width: 27vw;
+    height: 70vh;
+}
+.title8 {
+    font-size: 4vw;
+    font-weight: 700;
+    color: white;
+}
+.subtext8 {
+    color: white;
+    font-weight: 100;
+}
+.buttom8 {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(229, 185, 75);
+    color: white;
+    font-size: 2vh;
+    align-items: center;
+    padding: 1vw;
+    width: 10vw;
+    height: 3vw;
+    border-radius: 8px;
+    border-color: rgb(229, 185, 75);
+}
+@media (max-width: 780px) {
+    .principal {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .generaltext {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        box-sizing: border-box;
+        width: 80vw;
+        height: 80vh;
+        margin-bottom: 5vw;
+    }
+    .title8 {
+        font-size: 11vw;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 1vw;
+    }
+    .subtext8 {
+        color: white;
+        font-weight: 100;
+    }
+    .buttom8 {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(229, 185, 75);
+        color: white;
+        font-size: 2vh;
+        align-items: center;
+        padding: 1vw;
+        width: 20vw;
+        height: 10vw;
+        border-radius: 8px;
+        border-color: rgb(229, 185, 75);
+    }
+    .img8 {
+        width: 60vw;
+    }
+}

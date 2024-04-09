@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(239, 195, 86);
+    position: relative;
+}
+main {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.maintext30 {
+    box-sizing: border-box;
+    width: 35vw;
+    height: 65vh;
+    /* background-color: rgba(0, 3, 7, 0.185); */
+    border-radius: 15px;
+    color: white;
+    padding: 2vw;
+    z-index: 1;
+}
+.title30 {
+    font-size: 3.5vw;
+    font-weight: 600; 
+    color: white;
+}
+.subtext30 {
+    margin-top: 1.5vw;
+    font-weight: 200;
+    font-size: 1vw;
+    margin-bottom: 1.5vw;
+}
+.buttom30 {
+    width: 13vw;
+    height: 6vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(126, 181, 225);
+    color: white;
+
+    border: none;
+    border-radius: 50px;
+}
+.containerdog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 90vh;
+    background-color: rgb(239, 195, 86);
+    position: relative;
+}
+.dog {
+    align-self: center;
+    width: 25vw;
+    height: 70vh;
+    position: absolute;
+    z-index: 1;
+}
+.asterisco {
+    width: 9vw;
+    position: absolute;
+    top: 27vw;
+    left: 32vw;
+}
+.circle30 {
+    position: absolute;
+    width: 7vw;
+    left: 8vw;
+    top: 5vw;
+}
+.pawtop {
+    position: absolute;
+    top: 0;
+    width: 20vw;
+    right: 0vw;
+    z-index: 0;
+}
+.pawleft {
+    position: absolute;
+    left: 14vw;
+    top: 18vw;
+    width: 20vw;
+    z-index: 0;
+}
+.grid30 {
+    display: grid;
+    grid-template-columns: repeat(3,350PX);
+    grid-template-rows: 1fr;
+    background-color: #EFEEEE;
+    position: absolute;
+    top: -3vw;
+    padding: 1vw;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.subgrid30 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2vw;
+}
+.titlegrid30 {
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+.lorem30 {
+    font-size: 0.8vw;
+}
+.icons30 {
+    width: 5vw;
+}
+@media (max-width: 780px ) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: cente;
+        align-items: center;
+        width: 100vw;
+        height: 130vh;
+        background-color: rgb(239, 195, 86);
+        position: relative;
+    }
+    main {
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+    .maintext30 {
+        box-sizing: border-box;
+        width: 80vw;
+        height: 70vh;
+        /* background-color: rgba(0, 3, 7, 0.185); */
+        border-radius: 15px;
+        color: white;
+        padding: 2vw;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .title30 {
+        font-size: 7vw;
+        font-weight: 600; 
+        color: white;
+    }
+    .subtext30 {
+        margin-top: 5vw;
+        width: 70vw;
+        font-weight: 200;
+        font-size: 3.5vw;
+        margin-bottom: 5vw;
+    }
+    .buttom30 {
+        width: 35vw;
+        height: 6vh;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(126, 181, 225);
+        color: white;
+    
+        border: none;
+        border-radius: 50px;
+    }
+    .containerdog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 85vw;
+        height: 80vh;
+        background-color: none;
+        position: relative;
+    }
+    .dog {
+        align-self: center;
+        width: 60vw;
+        height: 50vh;
+        position: absolute;
+        z-index: 1;
+    }
+    .asterisco {
+        width: 24vw;
+        position: absolute;
+        top: 93vw;
+        left: 60vw;
+    }
+    .circle30 {
+        position: absolute;
+        width: 20vw;
+        left: 0vw;
+        top: 35vw;
+    }
+    .pawtop {
+        position: absolute;
+        top: 0;
+        width: 40vw;
+        right: 0vw;
+        z-index: 0;
+    }
+    .pawleft {
+        position: absolute;
+        left: 44vw;
+        top: 50vw;
+        width: 50vw;
+        z-index: 0;
+    }
+    .grid30 {
+        display: grid;
+        grid-template-columns: 300px;
+        grid-template-rows: repeat(3,100PX);
+        background-color: #EFEEEE;
+        position: absolute;
+        top: -10vw;
+        padding: 1vw;
+        padding-left: 10vw;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .subgrid30 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5vw;
+    }
+    .titlegrid30 {
+        font-size: 4.5vw;
+        font-weight: 500;
+    }
+    .lorem30 {
+        font-size: 3vw;
+    }
+    .icons30 {
+        width: 20vw;
+    }
+}

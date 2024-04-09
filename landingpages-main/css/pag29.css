@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    padding: 5vw;
+    padding-left: 8vw;
+    background-image: url(/img29/Hero\ image\ bg.png);
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
+main {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.maintext29 {
+    box-sizing: border-box;
+    width: 35vw;
+    height: 65vh;
+    /* background-color: rgba(0, 3, 7, 0.185); */
+    border-radius: 15px;
+    color: white;
+    padding: 2vw;
+}
+.title29 {
+    font-size: 3.5vw;
+    font-weight: 500; 
+    color: white;
+}
+.subtext29 {
+    font-weight: 200;
+    margin-bottom: 1vw;
+}
+.buttom29 {
+    width: 11vw;
+    height: 6vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+
+    border: none;
+    border-radius: 50px;
+}
+.grid29 {
+    display: grid;
+    grid-template-columns: repeat(6,175px);
+    grid-template-rows: 200px;
+    position: absolute;
+    top: -5vw;
+}
+.gallery29 {
+    width: 13vw;
+}
+.gallery29left {
+    width: 13vw;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.gallery29right {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 13vw;
+}
+@media (max-width: 780px ) {
+    .maintext29 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        box-sizing: border-box;
+        width: 80vw;
+        height: 65vh;
+        /* background-color: rgba(0, 3, 7, 0.185); */
+        border-radius: 15px;
+        color: white;
+        padding: 2vw;
+    }
+    .title29 {
+        font-size: 8vw;
+        font-weight: 500; 
+        color: white;
+    }
+    .subtext29 {
+        margin-top: 5vw;
+        width: 60vw;
+        font-weight: 200;
+        font-size: 4vw;
+        margin-bottom: 5vw;
+    }
+    .buttom29 {
+        width: 30vw;
+        height: 6vh;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        color: black;
+    
+        border: none;
+        border-radius: 50px;
+    }
+    .grid29 {
+        display: grid;
+        grid-template-columns: repeat(1,175px);
+        grid-template-rows: repeat(6,148px);
+        position: absolute;
+        top: -20vw;
+    }
+    .gallery29 {
+        width: 50vw;
+    }
+    .gallery29left {
+        border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 0px;
+        width: 50vw;
+    }
+    .gallery29right {
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 0px;
+        width: 50vw;
+
+    }
+}

@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    padding-bottom: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-color: rgb(242, 242, 242);
+    position: relative;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text17 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 40vw;
+    height: 50vh;
+    /* background-color: aquamarine; */
+    z-index: 1;
+}
+.title17 {
+    font-size: 2.5vw;
+    font-weight: 600;
+    margin-bottom: 1.5vw;
+}
+.subtext17 {
+    width: 25vw;
+    font-size: 1vw;
+    margin-bottom: 1vw;
+    font-weight: 300;
+}
+.button17 {
+    width: 9vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(37, 37, 37);
+    border: none;
+    color: white;
+    border-radius: 50px;
+}
+.box17 {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 50vw;
+    height: 22vh;
+    box-sizing: border-box;
+    border-radius: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1vw;
+    padding: 1vw;
+    position: absolute;
+    top: 23vw;
+    z-index: 1;
+    /* padding: 2vw; */
+    justify-content: space-around;
+}
+.subbox17 {
+    width: 8vw;
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    color: rgb(37, 37, 37);
+    
+    display: flex;
+    justify-content: center;
+}
+.negrilla17 {
+    font-size: 1.1vw;
+    font-weight: 600;
+}
+hr {
+    width: 3.5vw;
+    height: 0.1vw;
+    background-color:  rgb(37, 37, 37);
+}
+.loremt17 {
+    margin-top: 1vw;
+    font-size: 0.7vw;
+} 
+
+.photo17 {
+    background-image: url('/img17/image17.png');
+    background-position: center;
+    width: 90vw;
+    height: 30vw;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 0;
+    top: 28vw;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+}
+.gallery17 {
+    display: grid;
+    grid-template-columns:  repeat(3,1fr) ;
+    grid-template-rows: 1fr;
+    position: absolute;
+    top: 60vw;
+    gap: 40px;
+    padding-bottom: 2vw;
+}
+.blocks17 {
+    width: 28.5vw;
+}
+@media (max-width: 780px) {
+    .text17 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        width: 90vw;
+        height: 50vh;
+        /* background-color: aquamarine; */
+        z-index: 1;
+        position: absolute;
+        margin-top: 0%;
+        top: 0vw;
+    }
+    .title17 {
+        font-size: 6vw;
+        font-weight: 600;
+        margin-bottom: 5vw;
+    }
+    .subtext17 {
+        width: 58vw;
+        font-size: 3vw;
+        margin-bottom: 5vw;
+        font-weight: 300;
+        /* background-color: blue; */
+    }
+    .button17 {
+        width: 20vw;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(37, 37, 37);
+        border: none;
+        color: white;
+        border-radius: 50px;
+    }
+    .box17 {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        width: 80vw;
+        height: 13vh;
+        box-sizing: border-box;
+        border-radius: 40px;
+        font-family: 'Poppins', sans-serif;
+        /* font-size: 10vw; */
+        padding: 0vw;
+        position: absolute;
+        top: 80vw;
+        align-items: center;
+        z-index: 1;
+        /* padding: 2vw; */
+        justify-content: center;
+
+    }
+    .subbox17 {
+        width: 14vw;
+        height: 17vh;
+        display: flex;
+        flex-direction: column;
+        color: rgb(37, 37, 37);
+        margin-right: 3vw;
+        
+        display: flex;
+        justify-content: center;
+    }
+    .negrilla17 {
+        font-size: 2.8vw;
+        font-weight: 600;
+    }
+    hr {
+        width: 3.5vw;
+        height: 0.1vw;
+        background-color:  rgb(37, 37, 37);
+    }
+    .loremt17 {
+        margin-top: 1vw;
+        font-size: 2vw;
+    } 
+    
+    .photo17 {
+        background-image: url('/img17/image17.png');
+        background-position: center;
+        width: 90vw;
+        height: 30vw;
+        box-sizing: border-box;
+        position: absolute;
+        z-index: 0;
+        top: 95vw;
+        border-radius: 20px;
+        background-repeat: no-repeat;
+        background-size:cover;
+        display: flex;
+    }
+    .gallery17 {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3,1fr);
+        position: absolute;
+        top: 130vw;
+        gap: 40px;
+        padding-bottom: 2vw;
+    } 
+    .blocks17 {
+        width: 90vw;
+    }
+}
+
+

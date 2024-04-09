@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    background-color: rgb(162, 172, 173);
+    font-family: 'Poppins',sans-serif;
+    color: #363830;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; 
+    position: relative;
+    height: 100vh;
+}
+.img9 {
+    position: absolute;
+    bottom: 0;
+    left: 15vw;
+    margin: 0px;
+    width: 24vw;
+    height: 51vh;
+}
+.imgg9 {
+    position: absolute;
+    top: 0;
+    right: 10vw;
+    width: 29vw;
+}
+.generaltext {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 40vw;
+    height: 50vh;
+    background-color: transparent;
+    position: absolute;
+    top: 0vw;
+    left: 26vw;
+}
+.title9 {
+    font-size: 5vw;
+    font-weight: 800;
+    /* height: 5vh; */
+    background-color: transparent;
+    margin: 0;
+}
+.subtext9 {
+    background-color: transparent;
+}
+.buttom9 {
+    width: 9vw;
+    height: 7vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #363830;
+    color: white;
+    border-color: #363830;
+    border-radius: 50px;
+    border: none;
+}
+.bottombox9 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    align-items: flex-start;
+    width: 57vw;
+    height: 30vh;
+    background-color: rgba(255, 255, 255, 0.404);
+    position: absolute;
+    border-radius: 90px;
+    padding: 1vw;
+    bottom: 3vw;
+    right: 10vw;
+}
+.contbottombox9 {
+    display: flex;
+    align-items: flex-start;
+    width: 16vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    background-color: transparent;
+}
+.numbers9 {
+    color: #363830;
+    font-size: 1vw;
+    font-weight: 600;
+    background-color: transparent;
+}
+.text9 {
+    font-size: 1vw;
+    background-color: transparent;
+}
+.line {
+    width: 3vw;
+    color: #363830;
+    margin-right: auto;
+}
+@media (max-width: 780px) {
+    body {
+        height: 137vh;
+    }
+    .img9 {
+        position: absolute;
+        bottom: 0;
+        left: 0vw;
+        margin: 0px;
+        width: 60vw;
+        height: 51vh;
+    }
+    .imgg9 {
+        position: absolute;
+        top: 0;
+        right: 0vw;
+        width: 60vw;
+    }
+    .generaltext {
+        display: flex;
+        flex-direction: column;
+        /* align-items: flex-start; */
+        justify-content: center;
+        box-sizing: border-box;
+        width: 60vw;
+        height: 50vh;
+        background-color: transparent;
+        left: 10vw;
+    }
+    .title9 {
+        font-size: 7vw;
+        font-weight: 800;
+        /* height: 5vh; */
+        background-color: transparent;
+        margin: 0;
+    }
+    .subtext9 {
+        background-color: transparent;
+    }
+    .buttom9 {
+        width: 23vw;
+        height: 6vh;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #363830;
+        color: white;
+        border-color: #363830;
+        border-radius: 50px;
+    }
+    .bottombox9 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
+        align-items: flex-start;
+        width: 40vw;
+        height: 90vh;
+        background-color: rgba(255, 255, 255, 0.404);
+        position: absolute;
+        border-radius: 90px;
+        padding: 6vw;
+        bottom: 3vw;
+        right: 15vw;
+    }
+    .contbottombox9 {
+        display: flex;
+        align-items: flex-start;
+        width: 32vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-start;
+        background-color: transparent;
+    }
+    .numbers9 {
+        color: #363830;
+        font-size: 4.5vw;
+        font-weight: 600;
+        background-color: transparent;
+    }
+    .text9 {
+        font-size: 3vw;
+        background-color: transparent;
+    }
+    .line {
+        width: 8vw;
+        height: 0.2vh;
+        color: #1e1f1a;
+        margin-right: auto;
+        margin: 0;
+    }
+    
+}

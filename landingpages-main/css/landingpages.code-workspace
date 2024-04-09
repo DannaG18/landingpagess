@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "landingpages-main",
+			"path": ".."
+		},
+		{
+			"name": "proyecto",
+			"path": "../../../proyecto/proyecto"
+		}
+	],
+	"settings": {}
+}
