@@ -7,7 +7,7 @@
 main {
     background-color: rgb(49, 0, 82);
     padding: 1vw;
-    width: 100vw;
+    /* width: 100vw; */
     height: 100vh;
 }
 header {
@@ -45,4 +45,17 @@ header {
 .item:hover {
     background-color:  rgba(224, 211, 236, 0.363);
     transform: scale(1.1);
+}
+@media (max-width: 780px){
+    .gridmain {
+        display: flex;
+        flex-wrap: wrap ;
+        gap: 2vw;
+        padding: 2vw;
+        justify-content: center;
+    }
+    .item {
+        width:20vw;
+        height: 8vh;
+    }
 }
